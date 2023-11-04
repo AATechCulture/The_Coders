@@ -32,13 +32,14 @@ Example:
 
 
 ### ✨ Contributors ✨
-**...tell the world who you and your team are 🙂**
-* Team member X (AAdvantage No)
-* Team member Y (AAdvantage No)
-* Team member Z (AAdvantage No)
+* Sri Chandana Julakanti (R5MD284)
+* Yaseen Mohammad (D2LD288)
+* Asma Siddhiqua Mohammad (AAdvantage No)
+* Jarriel Jackson (H9TD280)
+* Carlos Salazar (D21MM04)
 
 ### School Name 🏫
-The ABC School
+Southern University and A & M College
 
 ### Team Name 🏷
 Coding Costars
