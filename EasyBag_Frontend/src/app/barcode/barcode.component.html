@@ -1,0 +1,27 @@
+<div class="bodyo">
+  <div class="card" style="margin: 20px;">
+    <div class="card-body">
+      <div class="container-fluid">
+        <form>
+          <div class="row" style="margin: 20px;">
+            <span class="col-md-4" style="text-align: right;" >
+              <label style="display: inline-block;width: 200px;text-align: right;margin-top: 7px;">Barcode : </label>
+            </span>
+            <span class="col-md-4" style="padding-right: 0px;padding-left: 0px;">
+              <input
+              type="text" [(ngModel)]="userInput" [ngModelOptions]="{standalone: true}" class="form-control" style="width: 250px;"/>
+            </span>
+            <span class="col-md-4" style="padding-left: 0px;padding-top: 3px;">
+              <button type="submit" class="btn btn-sm btnW" (click)="submitBarcode()" style="width: 200px; background-color: #14ACDC;color:rgba(255, 255, 255, 0.9)">
+                Submit
+              </button>
+            </span>
+          </div>
+          <div *ngIf="showAlert === true" style="text-align: center;color: rgb(15, 64, 33)">
+            <b>{{alertMessage}}</b>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

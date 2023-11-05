@@ -1,0 +1,9 @@
+# Node modules
+EasyBag_Frontend/node_modules/
+
+# MacOS Folder Attributes
+.DS_Store
+
+# JetBrains IDE
+.idea/
+
