@@ -1,0 +1,38 @@
+<div class="bodyo">
+  <div class="card" style="margin: 20px">
+    <div class="card-body" >
+        <div *ngIf="flightData">
+          <table>
+            <thead>
+              <tr>
+                <th>Flight Number</th>
+                <th>Origin Code</th>
+                <th>Origin City</th>
+                <th>Destination Code</th>
+                <th>Destination City</th>
+                <th>Distance (miles)</th>
+                <th>Duration</th>
+                <th>Departure Time</th>
+                <th>Arrival Time</th>
+                <th>Aircraft Model</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let flight of flightData">
+                <td>{{ flight.flightNumber }}</td>
+                <td>{{ flight.origin.code }}</td>
+                <td>{{ flight.origin.city }}</td>
+                <td>{{ flight.destination.code }}</td>
+                <td>{{ flight.destination.city }}</td>
+                <td>{{ flight.distance }}</td>
+                <td>{{ flight.duration.locale }}</td>
+                <td>{{ flight.departureTime }}</td>
+                <td>{{ flight.arrivalTime }}</td>
+                <td>{{ flight.aircraft.model }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+  </div>
+</div>

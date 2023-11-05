@@ -1,0 +1,44 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+thead {
+  background-color: #f4f4f4;
+}
+
+th {
+  height: 50px;
+  color: #333;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+td {
+  text-align: center;
+}
+
+td, th {
+  padding: 12px 15px;
+}
+
+@media (max-width: 600px) {
+  td, th {
+    padding: 10px 8px;
+    font-size: 0.9em;
+  }
+}

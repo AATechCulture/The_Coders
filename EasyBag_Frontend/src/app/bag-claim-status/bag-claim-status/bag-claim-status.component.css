@@ -1,0 +1,27 @@
+p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .countdown, .current {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .countdown {
+    font-size: 40px;
+    color: #fff;
+    background-color: #ff6347;
+    margin-bottom: 10px; /* Add margin to move countdown number to the next line */
+  }
+  
+  .current {
+    font-size: 24px;
+    color: #fff;
+    background-color: #008000;
+  }
+  

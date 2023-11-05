@@ -1,0 +1,38 @@
+<div class="bodyo">
+  <div class="row" style="margin-left: 0px;">
+    <span class="card col-md-6" style="margin: 20px;height: 250px;width: 350px;">
+      <div class="card-body" style="text-align: center;">
+        <span style="font-size: medium;">
+          <b>Baggage 1</b>
+        </span>
+        <div *ngIf="count != 0; else elseBlock" style="text-align: center;">
+          <p> Your Luggage is in Position</p>
+          <div class="countdown">{{count}}</div>
+          <p>to arrive at carousel.</p>
+        </div>
+        <ng-template #elseBlock>
+          <div>
+            <p>Your baggage 1 is on the carousel. Please pick it up from the belt.</p>
+          </div>
+        </ng-template>       
+      </div>
+    </span>
+    <span class="card col-md-6" style="margin: 20px;height: 250px;width: 350px;">
+      <div class="card-body" style="text-align: center;">
+        <span>
+          <b>Baggage 2</b>
+        </span>
+        <div *ngIf="count != 0; else elseBlock2" style="text-align: center;">
+          <p> Your Luggage is in Position</p>
+          <div class="countdown">{{count}}</div>
+          <p>to arrive at carousel.</p>
+        </div>
+        <ng-template #elseBlock2>
+          <div>
+            <p>Your baggage 2 is on the carousel. Please pick it up from the belt.</p>
+          </div>
+        </ng-template>       
+      </div>
+    </span>
+  </div>
+</div>
