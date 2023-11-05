@@ -1,18 +1,15 @@
 # Easy Bag
 
 ## Challenge Statement(s) Addressed 🎯
-**...include the challenge statement(s) the project worked to address**
+* How can we make it possible to avoid or reduce inconveniencing customers with prolonged wait times in the baggage claim area with improving the services American Airlines have in line now?
+* How can we provide real-time information about a customers luggage location, status, and delivery update?
 
-Examples:
-* How might we decrease the United States chances of alien and monster attacks given what we know from popular alien and monster movies?
-* How might we make it possible for people in cities not to have to own a car by making car-sharing easier so that the environment will be less damaged and people can save money?
-* How might we ....
 
 ## Project Description 🤯
 Introduction of a groundbreaking solution to enhance the air travel experience. We’ve developed a baggage tracking system that provides real-time information about the location and status of your luggage, eliminating the frustration and uncertainty at baggage claim. By automating baggage tracking and offering a user-friendly interface, we aim to significantly improve customer satisfaction and set a new industry standard for American Airlines and its competitors.
 
 ## Project Value 💰
-**....at lease 3 sentences describing your target customer and tangible benefits from your solution**
+Our target customers are air travelers, of any age, seeking a seamless and stress-free travel experience. Our solution offers tangible benefits by providing real-time luggage tracking, minimizing wait times, and eliminating the uncertainty of lost baggage, ultimately maximizing customer satisfaction and convenience.
 
 
 ## Tech Overview 💻
